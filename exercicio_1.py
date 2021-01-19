@@ -1,21 +1,15 @@
-def calcula_media(nota):
-    # opcao 1:
-    total = 0
-    for i in nota:
-        total += i
-    # opcao 2:
-    #total = sum(nota)
+# Implemente a funcao calcula_media para retornar a media de um aluno:
 
-    # media simples:
-    media = total / len(nota)
+### defina aqui a funcao calcula_media ###
+    
     return media
 
-# Se media[i] >= 5 imprime "alunos[i] - Aprovado com media media[i]", a media deve ser
-# impressa com 1 casas decimais
+# Implemente a funcao print_aprovados para imprimir os alunos com media maior ou igual
+# a 5, formato de impressao: "alunos[i] - Aprovado com media media[i]", a media deve ser
+# impressa com 1 casas decimal:
+
 def print_aprovados(alunos, medias):
-    for i in range(len(medias)):
-        if(medias[i] >= 5):
-            print("{} - Aprovado com media {:.1f}".format(alunos[i], medias[i]))
+
     return
 
 
